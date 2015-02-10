@@ -37,3 +37,5 @@ if __name__ == "__main__":
             print "Operacion incorrecta"
     except ValueError:
         print "Termino no valido"
+    except ZeroDivisionError:
+        print "Division por cero"
